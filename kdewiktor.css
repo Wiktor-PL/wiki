@@ -233,8 +233,40 @@ h2 {
 }
 /* sekcja hardware*/
 .hardware {
-  background: rgba(61, 174, 233, 0.1);
+  background-color: #24333d;
+  padding: 3rem 1.5rem 2rem 1.5rem;
+}
+.h1-hardware {
+  margin: 1rem 0 1rem 0;
+  font-size: 3rem;
+}
+.h2-hardware {
+  margin: 1rem 0 1rem 0;
+  font-size: 1.3;
+}
+.hardware-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+}
+.grid-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.grid-obraz {
+  max-width: 100%;
+  height: auto;
+}
+.p-grid {
   padding: 1.5rem;
+  font-size: 1.2rem;
+}
+.p-grid > .a-opis {
+  margin-top: 0.3rem;
+  margin-bottom: 0;
 }
 @media (min-width: 576px) {
   .kde-kontener {
