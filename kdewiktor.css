@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c2927;
+  overflow-x: hidden;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  margin: 0 auto;
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #54a3d8;
+  padding-right: 1rem;
+  padding-left: 2rem;
+  overflow: scroll;
+}
+.linki {
+  list-style: none;
+  gap: 2rem;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 3rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+.logo {
+  background-color: #54a3d8;
+  padding: 1rem;
+}
+.wyszukiwarka {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 4rem;
+}
+svg {
+  height: 1.5rem;
+  width: 2rem;
+  fill: aliceblue;
+}
+
+.szukaj {
+  padding: 0.4rem;
+
+  background-color: #212529;
+  color: aliceblue;
+  border: 3px solid #54a3d8;
+  outline: none;
+}
+.szukaj:focus {
+  background-color: #2c2927;
+}
+
+.submenu {
+  background-color: #212428dd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  backdrop-filter: blur(30px) saturate(90%);
+}
+.blue {
+  color: #1d99f3;
+}
+button {
+  margin-right: 5rem;
+  background-color: #54a3d8;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 7%;
+  font-size: 1.1rem;
+}
+.slowa {
+  margin-left: 10rem;
+  font-family: "Bebas Neue", display;
+  font-size: 3rem;
+}
+/*sekcja nr1*/
+.banner-area .banner-img {
+  background-image: url(https://kde.org/reusable-assets/home-blur.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.banner-area {
+  position: relative;
+  min-height: 92vh;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0.3rem 4rem 0.3rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+h2 {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.laptop {
+  width: 1000px;
+  margin-top: 2rem;
+}
+
+.przyciski {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.prz {
+  background-color: #54a3d8;
+  border-radius: 5px;
+  padding: 0.6rem 1rem;
+  font-size: 1.3rem;
+}
+.prz:hover {
+  background-color: #65b4e9;
+}
+/*sekcja aplikacji kde*/
+.kde-apki {
+  background-color: #2c2927;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.k-h1 {
+  margin: 1rem 0 1rem 0;
+}
+.k-h2 {
+  margin: 1rem 0 1rem 0;
+}
+.k-p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  vertical-align: baseline;
+  line-height: 27px;
+}
+.k-a {
+  margin-top: 1.5rem;
+  color: #a9dbff;
+  display: block;
+}
+/*kdenlive*/
+.kdenlive {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2.2rem;
+  justify-content: center;
+}
+.kdenlive .obi {
+  width: 59%;
+  flex: 0 0 auto;
+  padding: 0.5rem;
+}
+.kdenlive .obi1 {
+  width: 59%;
+  flex: 0 0 auto;
+  padding: 0.5rem;
+  order: 1;
+}
+.obraz {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.7);
+}
+.obraz1 {
+  max-width: 100%;
+  height: auto;
+}
+.opis {
+  flex: 0 0 auto;
+  width: 41%;
+  padding: 0.5rem;
+}
+.opis2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  align-items: center;
+  text-align: center;
+  margin: 0 0.5rem 0 0.5rem;
+}
+.kdenlive .opis .ikona {
+  width: 100px;
+  height: auto;
+}
+.a-opis {
+  color: #a9dbff;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+.a-opis:hover {
+  color: #a8caee;
+}
+.p-opis {
+  font-size: 1.1rem;
+  line-height: 27px;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .kde-apki {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .kde-apki {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  button {
+    margin-right: 0.4rem;
+  }
+  .banner-area {
+    min-height: 600px;
+  }
+}
+@media (max-width: 1040px) {
+  .laptop {
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .kde-apki {
+    max-width: 960px;
+  }
+  .opis2 {
+    max-width: 500px;
+  }
+}
+@media (max-width: 992px) {
+  .kdenlive {
+    flex-direction: column-reverse;
+  }
+  .kdenlive .obi {
+    width: 100%;
+  }
+  .kdenlive .obi1 {
+    width: 100%;
+    order: 0;
+  }
+  .opis {
+    width: 100%;
+  }
+  .slowa {
+    margin-left: 5rem;
+    font-size: 2.1rem;
+  }
+  .submenu {
+    padding: 0.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .kde-apki {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .kde-apki {
+    max-width: 1320px;
+  }
+}
