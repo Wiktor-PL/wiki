@@ -281,6 +281,28 @@ h2 {
   width: 50%;
   padding: 1rem;
 }
+/*sekcja zielona*/
+.zielone {
+  background-color: #22332f;
+  padding: 1.5rem;
+}
+.eko {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.eko-obrazek {
+  max-width: 100%;
+  height: auto;
+}
+.eko-obraz {
+  width: 42%;
+}
+.eko-tekst {
+  width: 58%;
+  padding: 0 2rem 0 2rem;
+}
 @media (min-width: 576px) {
   .kde-kontener {
     max-width: 540px;
@@ -312,6 +334,16 @@ h2 {
 @media (max-width: 1040px) {
   .laptop {
     max-width: 100%;
+  }
+  .eko {
+    flex-direction: column;
+  }
+  .eko-tekst {
+    width: 100%;
+  }
+  .eko-obraz {
+    width: 96%;
+    align-items: center;
   }
 }
 @media (min-width: 992px) {
