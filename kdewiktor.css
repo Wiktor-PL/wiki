@@ -229,14 +229,19 @@ h2 {
 /* sekcja hardware*/
 .hardware {
   background: rgba(61, 174, 233, 0.1);
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-width: 576px) {
-  .kde-apki {
+  .kde-apki,
+  .hardware {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .kde-apki {
+  .kde-apki,
+  .hardware {
     max-width: 720px;
   }
 }
@@ -254,7 +259,8 @@ h2 {
   }
 }
 @media (min-width: 992px) {
-  .kde-apki {
+  .kde-apki,
+  .hardware {
     max-width: 960px;
   }
   .opis2 {
@@ -284,12 +290,14 @@ h2 {
   }
 }
 @media (min-width: 1200px) {
-  .kde-apki {
+  .kde-apki,
+  .hardware {
     max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
-  .kde-apki {
+  .kde-apki,
+  .hardware {
     max-width: 1320px;
   }
 }
