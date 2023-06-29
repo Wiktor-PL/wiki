@@ -271,6 +271,15 @@ h2 {
 /*sekcja wiadomości*/
 .wiadomosci {
   background-color: #212529;
+  padding: 1.5rem;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info2 {
+  width: 50%;
+  padding: 1rem;
 }
 @media (min-width: 576px) {
   .kde-kontener {
@@ -292,6 +301,12 @@ h2 {
   .hardware-grid {
     display: flex;
     flex-direction: column;
+  }
+  .info {
+    flex-direction: column;
+  }
+  .info2 {
+    width: 100%;
   }
 }
 @media (max-width: 1040px) {
