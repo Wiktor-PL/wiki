@@ -226,7 +226,10 @@ h2 {
   line-height: 27px;
   text-align: center;
 }
-
+/* sekcja hardware*/
+.hardware {
+  background: rgba(61, 174, 233, 0.1);
+}
 @media (min-width: 576px) {
   .kde-apki {
     max-width: 540px;
