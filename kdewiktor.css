@@ -285,6 +285,10 @@ h2 {
   .banner-area {
     min-height: 600px;
   }
+  .hardware-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (max-width: 1040px) {
   .laptop {
@@ -324,6 +328,13 @@ h2 {
 @media (min-width: 1200px) {
   .kde-kontener {
     max-width: 1140px;
+  }
+}
+@media (max-width: 1200px) {
+  .hardware-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+    align-self: flex-start;
   }
 }
 @media (min-width: 1400px) {
