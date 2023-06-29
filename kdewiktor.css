@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+footer{
+text-align:center
+}
 
 body {
   background-color: #2c2927;
