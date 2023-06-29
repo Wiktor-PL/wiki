@@ -142,12 +142,15 @@ h2 {
 .prz:hover {
   background-color: #65b4e9;
 }
+/*ogól KONTENER*/
+.kde-kontener {
+  margin-left: auto;
+  margin-right: auto;
+}
 /*sekcja aplikacji kde*/
 .kde-apki {
   background-color: #2c2927;
   padding: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .k-h1 {
@@ -232,14 +235,12 @@ h2 {
   padding: 1.5rem;
 }
 @media (min-width: 576px) {
-  .kde-apki,
-  .hardware {
+  .kde-kontener {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .kde-apki,
-  .hardware {
+  .kde-kontener {
     max-width: 720px;
   }
 }
@@ -257,8 +258,7 @@ h2 {
   }
 }
 @media (min-width: 992px) {
-  .kde-apki,
-  .hardware {
+  .kde-kontener {
     max-width: 960px;
   }
   .opis2 {
@@ -288,14 +288,12 @@ h2 {
   }
 }
 @media (min-width: 1200px) {
-  .kde-apki,
-  .hardware {
+  .kde-kontener {
     max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
-  .kde-apki,
-  .hardware {
+  .kde-kontener {
     max-width: 1320px;
   }
 }
