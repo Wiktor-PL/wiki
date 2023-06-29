@@ -146,11 +146,13 @@ h2 {
 .kde-kontener {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  padding: 0.2rem;
 }
 /*sekcja aplikacji kde*/
 .kde-apki {
   background-color: #2c2927;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .k-h1 {
