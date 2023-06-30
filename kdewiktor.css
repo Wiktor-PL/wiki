@@ -306,14 +306,6 @@ h2 {
   width: 58%;
   padding: 0 2rem 0 2rem;
 }
-/*sekcja spolecznosc*/
-.spolecznosc {
-  background-color: #24333d;
-  padding: 1.5rem;
-}
-.center-button {
-  text-align: center;
-}
 
 @media (min-width: 576px) {
   .kde-kontener {
