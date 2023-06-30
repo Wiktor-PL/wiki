@@ -8,7 +8,7 @@ footer {
 }
 
 body {
-  background-color: #2c2927;
+  background-color: #31363b;
   overflow-x: hidden;
   color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
@@ -306,6 +306,26 @@ h2 {
   width: 58%;
   padding: 0 2rem 0 2rem;
 }
+/*stopka*/
+#sponsor {
+  background-color: aliceblue;
+  color: #212529;
+}
+#sponsor img {
+  width: 100%;
+  max-width: 300px;
+}
+#sponsor span {
+  padding: 0 0.5rem;
+  text-align: center;
+  flex-basis: 30%;
+}
+.logo-sponsor {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (min-width: 576px) {
   .kde-kontener {
@@ -333,6 +353,11 @@ h2 {
   }
   .info2 {
     width: 100%;
+  }
+  .logo-sponsor {
+    flex-wrap: wrap;
+  }
+  #sponsor img {
   }
 }
 @media (max-width: 1040px) {
