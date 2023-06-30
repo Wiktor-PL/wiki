@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-footer{
-text-align:center
+footer {
+  text-align: center;
 }
 
 body {
@@ -305,6 +305,10 @@ h2 {
 .eko-tekst {
   width: 58%;
   padding: 0 2rem 0 2rem;
+}
+/*sekcja spolecznosc*/
+.spolecznosc {
+  background-color: #24333d;
 }
 @media (min-width: 576px) {
   .kde-kontener {
