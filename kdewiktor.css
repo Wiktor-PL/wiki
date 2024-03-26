@@ -380,6 +380,9 @@ h2 {
     width: 96%;
     align-items: center;
   }
+  .menu{
+    overflow: scroll;
+  }
 }
 @media (min-width: 992px) {
   .kde-kontener {
@@ -422,9 +425,7 @@ h2 {
     grid-row-gap: 25px;
     align-self: flex-start;
   }
-  .menu{
-    overflow: scroll;
-  }
+ 
 }
 @media (min-width: 1400px) {
   .kde-kontener {
