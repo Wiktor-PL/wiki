@@ -387,6 +387,9 @@ h2 {
   .linki{
     margin-left: 0.06rem;
   }
+  .wyszukiwarka{
+    margin: 0;
+  }
 }
 @media (min-width: 992px) {
   .kde-kontener {
