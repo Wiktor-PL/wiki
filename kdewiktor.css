@@ -441,5 +441,10 @@ h2 {
   .kde-kontener {
     max-width: 1320px;
   }
-  
+}
+@media(max-width: 890px){
+  .menu{
+    overflow: scroll;
+  }
+
 }
