@@ -381,7 +381,6 @@ h2 {
     align-items: center;
   }
   .menu{
-    
     padding: 0.2rem;
   }
   .linki{
@@ -417,9 +416,7 @@ h2 {
     margin-left: 5rem;
     font-size: 2.1rem;
   }
-  .menu{
-    overflow: scroll;
-  }
+ 
   .submenu {
     padding: 0.2rem;
   }
