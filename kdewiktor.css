@@ -357,8 +357,7 @@ h2 {
   .logo-sponsor {
     flex-wrap: wrap;
   }
-  #sponsor img {
-  }
+  
 }
 @media (max-width: 1040px) {
   .laptop {
