@@ -23,7 +23,7 @@ body {
   border-bottom: 3px solid #54a3d8;
   padding-right: 1rem;
   padding-left: 2rem;
-  overflow: scroll;
+ 
 }
 .linki {
   list-style: none;
@@ -420,5 +420,8 @@ h2 {
 @media (min-width: 1400px) {
   .kde-kontener {
     max-width: 1320px;
+  }
+  .menu{
+    overflow: scroll;
   }
 }
