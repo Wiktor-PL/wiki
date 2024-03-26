@@ -247,10 +247,7 @@ h2 {
   margin: 1rem 0 1rem 0;
   font-size: 1.3;
 }
-.srodek-sponsor{
-  text-align: center;
-  padding: 0.3rem;
-}
+
 .hardware-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -315,6 +312,10 @@ h2 {
   background-color: aliceblue;
   color: #212529;
 }
+.srodek-sponsor{
+  text-align: center;
+  padding: 0.3rem;
+}
 #sponsor img {
   width: 100%;
   max-width: 300px;
@@ -329,8 +330,9 @@ h2 {
   gap: 0.5rem;
   align-items: center;
   justify-content: center;
+  max-width: 1000px;
 }
-
+/*SEKCJA MEDIA!!!!!*/
 @media (min-width: 576px) {
   .kde-kontener {
     max-width: 540px;
