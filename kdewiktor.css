@@ -382,7 +382,7 @@ h2 {
   }
   .menu{
     overflow: scroll;
-    margin:calc(auto - 20px)
+    padding: 0.2rem;
   }
 }
 @media (min-width: 992px) {
