@@ -384,6 +384,9 @@ h2 {
     overflow: scroll;
     padding: 0.2rem;
   }
+  .linki{
+    margin-left: 0.06rem;
+  }
 }
 @media (min-width: 992px) {
   .kde-kontener {
