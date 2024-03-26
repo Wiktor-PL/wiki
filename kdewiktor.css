@@ -415,12 +415,13 @@ h2 {
     grid-row-gap: 25px;
     align-self: flex-start;
   }
+  .menu{
+    overflow: scroll;
+  }
 }
 @media (min-width: 1400px) {
   .kde-kontener {
     max-width: 1320px;
   }
-  .menu{
-    overflow: scroll;
-  }
+  
 }
